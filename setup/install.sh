@@ -74,8 +74,6 @@ elif grep -i "Kali" /etc/os-release 2>/dev/null; then
   echo -e "\x1b[1;34m[*] Detected Kali\x1b[0m"
   OS_NAME=KALI
   VERSION_ID=KALI_ROLLING
-else
-  echo -e '\x1b[1;31m[!] Unsupported OS. Exiting.\x1b[0m' && exit
 fi
 
 if [ $OS_NAME == "DEBIAN" ]; then
