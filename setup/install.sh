@@ -1,4 +1,9 @@
 #!/bin/bash
+#install prerequisite for 
+sudo apt-get install automake
+sudo apt-get install gcc-mingw-w64-x86-64-posix-runtime
+
+#normal isntall without Unsupported OS
 function install_powershell() {
   echo -e "\x1b[1;34m[*] Installing Powershell\x1b[0m"
   if [ $OS_NAME == "DEBIAN" ]; then
