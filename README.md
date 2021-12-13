@@ -1,7 +1,9 @@
 # Use Empire on all debian OS
 Fork of https://github.com/BC-SECURITY/Empire
 
-- Tested on ParrotOS & PopOS
+I just changed the setup script :)
+
+- Tested and working on ParrotOS & PopOS (13.12.2021)
 
 - Works with starkiller
 
