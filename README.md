@@ -1,4 +1,4 @@
-# Use Empire on all debian OS
+# Use Empire on all debian-based OS
 Fork of https://github.com/BC-SECURITY/Empire
 
 I just changed the setup script :)
